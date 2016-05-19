@@ -16,8 +16,8 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand visible-lg" href="#page-top"><img src="/templates/mv/svg/logo-alerj-monocromatica.svg" class="alerj-logo img-responsive"></a>
-                    <a class="navbar-brand" href="#page-top">
+                    <a class="navbar-brand visible-lg" href="/"><img src="/templates/mv/svg/logo-alerj-monocromatica.svg" class="alerj-logo img-responsive"></a>
+                    <a class="navbar-brand" href="/">
                         <img src="/templates/mv/svg/logo-alo-alerj-nova.svg" class="alolerj-logo-home img-responsive visible-lg" alt="AloAlerj">
                         <img src="/templates/mv/svg/logo-alo-alerj-branca-nova.svg" class="alolerj-logo-home img-responsive hidden-lg" alt="AloAlerj">
                     </a>
@@ -30,22 +30,22 @@
                             <a href="#page-top"></a>
                         </li>
                         <li class="page-scroll">
-                            <a href="#portfolio">O Alô Alerj</a>
+                            <a href="/pages/aloalerj">O Alô Alerj</a>
                         </li>
                         <li class="page-scroll">
-                            <a href="#about">Comissões</a>
+                            <a href="/pages/comittees">Comissões</a>
                         </li>
-                        <li class="page-scroll">
+{{--                        <li class="page-scroll">
                             <a href="#contact">Contatos</a>
+                        </li>--}}
+                        <li class="page-scroll">
+                            <a href="/pages/telefones">Telefones Úteis</a>
                         </li>
                         <li class="page-scroll">
-                            <a href="#contact">Telefones Úteis</a>
-                        </li>
-                        <li class="page-scroll">
-                            <a href="#contact">Alerj</a>
+                            <a href="http://www.alerj.rj.gov.br/" target="_blank">Alerj</a>
                         </li>
                         <li class="page-scroll menuicon">
-                            <a href="#contact"> <i class="fa fa-envelope-o envelopemenu" aria-hidden="true"></i></a>
+                            <a href="/contact" title="Contato"> <i class="fa fa-envelope-o envelopemenu" aria-hidden="true"></i></a>
                         </li>
 
 

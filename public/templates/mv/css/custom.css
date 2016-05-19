@@ -2,6 +2,7 @@ body {
     font-family: 'Maven Pro', sans-serif, 'Medium 500';
     line-height: 1.5;
     color: #172B53;
+    background: #fffeff !important;
 }
 
 p {
@@ -80,7 +81,6 @@ a:link {
     padding-top: 10px;
     padding-bottom: 10px;
     font-size: 2.7em;
-    text-align: center;
     color: #ffffff;
     background-color: #172B53;
 }
@@ -248,10 +248,25 @@ img.app-mockup {
     margin-bottom: 40px;
 }
 
+
+
+.comissoes p {
+    font-size: 20px;
+}
+
+.tel-comissao-link:link, .tel-comissao-link:visited, .tel-comissao-link:hover, .tel-comissao-link:active {
+    color: #ffffff;
+}
+
 /*==========  Mobile First Method  ==========*/
 
 /* Custom, iPhone Retina */
 @media only screen and (min-width : 320px) {
+
+
+    body {
+        margin-top: 50px;
+    }
 
     .alolerj-logo-home {
          height: 40px !important;
@@ -290,11 +305,11 @@ img.app-mockup {
         height: 93px;
     }
     .nome-comissao {
-        color: #ffffff;
-        font-size: 16px;
+        font-size: 24px;
         font-family: 'Oswald', sans-serif;
         text-transform: uppercase;
         font-weight: 600;
+        text-align: center;
     }
 
 
@@ -329,6 +344,9 @@ img.app-mockup {
         text-align: center;
         color: #ffffff;
         background-color: #172B53;
+    }
+    .tel-comissao-link:link, .tel-comissao-link:visited, .tel-comissao-link:hover, .tel-comissao-link:active {
+        color: #ffffff;
     }
 
     .ficha-comissao {
@@ -548,6 +566,12 @@ img.app-mockup {
 /* Extra Small Devices, Phones */
 @media only screen and (min-width : 480px) {
 
+
+
+    body {
+        margin-top: 50px;
+    }
+
     .visible-xs .telefone {
         font-size: 30px;
         font-weight: 600;
@@ -644,6 +668,11 @@ img.app-mockup {
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
 
+
+    body {
+        margin-top: 100px;
+    }
+
     .alolerj-logo-home {
         height: 70px !important;
         margin-top: -25px !important;
@@ -692,8 +721,7 @@ img.app-mockup {
 
 
     .nome-comissao{
-        color:  #fff ;
-        font-size: 24px;
+        font-size: 30px;
         font-family: 'Oswald', sans-serif;
         text-transform: uppercase;
         font-weight: 600;
@@ -1230,7 +1258,7 @@ img.app-mockup {
         padding-top: 10px;
         padding-bottom: 10px;
         font-size: 2.7em;
-        text-align: center;
+        /*text-align: center;*/
         color: #ffffff;
         background-color: #172B53;
     }
@@ -1717,23 +1745,27 @@ img.app-mockup {
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-    .nome-comissao {
-    color: #172b53;
-    font-size: 36px;
-    font-family: 'Oswald', sans-serif;
-    text-transform: uppercase;
-    font-weight: 400;
-    margin-top: 40px;
-    line-height: 1.2;
-    letter-spacing: 1px;
-    margin-left: 20px;
+
+    body {
+        margin-top: 90px;
     }
 
-    /*
-    .comissoes-telefone {
-        float: right;
+    .nome-comissao {
+        color: #172b53;
+        font-size: 36px;
+        font-family: 'Oswald', sans-serif;
+        text-transform: uppercase;
+        font-weight: 400;
+        margin-top: 40px;
+        line-height: 1.2;
+        letter-spacing: 1px;
+        margin-left: 20px;
+        /*text-align: center !important;*/
     }
-    */
+
+    .comissoes-telefone {
+        text-align: left !important;
+    }
 
     .comissoes-telefone .boxshadow {
         background: none ;
@@ -1755,9 +1787,12 @@ img.app-mockup {
         font-size: 1.7em;
         color: #172B53;
         background-color: #fff !important;
+        text-align: left;
     }
+
     .comissoes-telefone .tel-comissao a {
         color: #172B53;
+        font-size: 32px;
     }
 
 
@@ -1771,6 +1806,15 @@ img.app-mockup {
 
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
+
+    body {
+        margin-top: 0px;
+    }
+
+    .comissoes {
+        column-count: 2;
+        margin: 20px 0px 40px 0px;
+    }
 
 
 
@@ -1796,7 +1840,8 @@ img.app-mockup {
     }
 
     .nome-comissao {
-    margin-left: 0;
+        margin-left: 0;
+        text-align: left;
     }
 
     .icones-apps {
